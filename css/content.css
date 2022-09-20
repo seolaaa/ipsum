@@ -3,7 +3,7 @@
 
 #main-wrap{
     width: 100%;
-    height: 1000px;
+    height: 969px;
     position: relative;
     left: 0px;
     top: 0px;
@@ -41,7 +41,7 @@
 }
 
 #main-center img{
-    width: 50%;
+    width: 58%;
     position: absolute;
     top: 150px;
 }
@@ -54,8 +54,23 @@
 }
 
 .main-text{
-    font: normal 0.85em 'Noto Sans';
+    font: normal 0.75em 'Noto Sans';
     color: white;
     position: absolute;
     top: 300px;
+}
+
+.right-text{
+    text-align: end;
+    position: absolute;
+    left: 51%;
+    top: 750px;
+}
+
+#main-big-text{
+    font: bold 2.2em 'Noto Sa2ns';
+    color: white;
+    position: absolute;
+    left: 21%;
+    top: 750px;
 }
