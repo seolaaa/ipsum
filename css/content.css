@@ -32,14 +32,30 @@
 }
 #main-center{
     width: 1200px;
+    height: 100%;
     margin: 0px auto;
     display: flex;
     justify-content: center;
+    position: relative;
+    top: 0px;
 }
 
 #main-center img{
-    scale: 0.7;
-    position: relative;
-    top: 100px;
-    
+    width: 50%;
+    position: absolute;
+    top: 150px;
+}
+
+#maintitle{
+    font: bold 7em 'Noto Sans';
+    color: white;
+    position: absolute;
+    top: 140px;
+}
+
+.main-text{
+    font: normal 0.85em 'Noto Sans';
+    color: white;
+    position: absolute;
+    top: 300px;
 }
