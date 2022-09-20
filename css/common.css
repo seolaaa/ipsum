@@ -24,3 +24,34 @@ ul#skipmenu-list li a:focus {
     z-index: 99999;
 }
 /*기본설정끝*/
+
+/*헤더*/
+
+#header-wrap{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 0px;
+    background: rgba(255,255,255,0.8);
+}
+
+header{
+    width: 1200px;
+    margin:0px auto;
+    
+}
+#title{
+    width: 50%;
+    font: bold 1.625em 'Noto Sans';
+}
+
+#mainmenu-list{
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+/*헤더끝*/
