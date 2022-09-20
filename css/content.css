@@ -1,0 +1,45 @@
+
+/*메인이미지*/
+
+#main-wrap{
+    width: 100%;
+    height: 1000px;
+    position: relative;
+    left: 0px;
+    top: 0px;
+}
+#main-wrap::after{
+    content: "";
+    width: 50%;
+    height: 100%;
+    background-color: #666666;
+    position: absolute;
+    top: 0px;
+    z-index: -1;
+
+}
+
+#main-wrap::before{
+    content: "";
+    width: 50%;
+    height: 100%;
+    background-color: #d2cdc9;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    z-index: -1;
+
+}
+#main-center{
+    width: 1200px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: center;
+}
+
+#main-center img{
+    scale: 0.7;
+    position: relative;
+    top: 100px;
+    
+}

@@ -35,11 +35,14 @@ ul#skipmenu-list li a:focus {
     position: absolute;
     top: 0px;
     background: rgba(255,255,255,0.8);
+    z-index: 1;
 }
 
 header{
     width: 1200px;
     margin:0px auto;
+    display: flex;
+    align-items: center;
     
 }
 #title{
