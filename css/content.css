@@ -40,7 +40,13 @@
     top: 0px;
 }
 
-#main-center img{
+/* #main-center img{
+    width: 58%;
+    position: absolute;
+    top: 150px;
+} */
+
+.main-img{
     width: 58%;
     position: absolute;
     top: 150px;
@@ -74,9 +80,45 @@
     left: 21%;
     top: 750px;
 }
+.main-btn{
+    width: 17%;
+    position: absolute;
+    top: 450px;
+    left: 70%;
+}
 
 /*메인이미지 끝*/
 
 
 /*컨텐츠*/
 
+
+
+
+
+@media screen and (max-width:1200px){
+    #main-center{
+        width: 100%;
+    }
+}
+@media screen and (max-width:1000px){
+    .main-btn{
+        top:35%;
+    }
+    #main-big-text{
+        font-size: 24px;
+        top: 65%;    
+    }
+    .right-text{
+        font-size: 10px;
+        top: 65%; 
+    }
+
+}@media screen and (max-width:800px){
+    #main-big-text,.right-text{
+        top: 55%;
+    }
+     #maintitle{
+        font-size: 80px;
+    }
+}
