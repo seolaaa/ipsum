@@ -185,6 +185,27 @@
     color: #666666;
 }
 
+#img-text-content-center{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.img-half{
+    width: 60%;
+}
+
+.img-half img{
+    width: 100%;
+}
+
+.text-half{
+    width: 40%;
+    height: 100%;
+    background: tan;
+}
 
 @media screen and (max-width:1200px){
     #main-center,#content-center{
