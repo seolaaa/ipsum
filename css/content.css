@@ -92,12 +92,21 @@
 
 /*컨텐츠*/
 
+#content-wrap{
+    width: 100%;
+    height: auto;
+    background: red;
+}
+#content-center{
+    width: 1200px;
+    margin: 0px auto;
+}
 
 
 
 
 @media screen and (max-width:1200px){
-    #main-center{
+    #main-center,#content-center{
         width: 100%;
     }
 }
