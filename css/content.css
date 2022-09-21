@@ -99,6 +99,7 @@
 
 #content-center{
     width: 1200px;
+    height: 800px;
     margin: 0px auto;
     position: relative;
     left: 0px;
@@ -122,17 +123,39 @@
 .content-img{
     border: solid 1px rgba(0, 0, 0, 0);
     border-radius: 50%;
-    padding: 32%;
+    padding: 28%;
     box-sizing: border-box;
     background: #f9f6ef;
 }
 
-.content-img:nth-child(3){
-    padding: 32% 32% 35% 32%;
+.padding-img{
+    padding: 28% 28% 32% 28%;
 }
 
+.content-menu-title{
+    font: bold 1.45em 'Noto Sans';
+    color: #666666;
+}
 
+.content-menu-text{
+    font: normal 1em 'Noto Sans';
+    text-align: center;
+    padding: 10%;
+    box-sizing: border-box;
+    color: #666666;
+}
 
+.content-menu-btn{
+    width: 120px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font: normal 1em 'Noto Sans';
+    border: solid 1px #666666;
+    border-radius: 70px;
+    color: #666666;
+}
 
 
 @media screen and (max-width:1200px){
