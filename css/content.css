@@ -95,12 +95,42 @@
 #content-wrap{
     width: 100%;
     height: auto;
-    background: red;
 }
+
 #content-center{
     width: 1200px;
     margin: 0px auto;
+    position: relative;
+    left: 0px;
+    top: 0px;
+    background: palevioletred;
 }
+
+#content-menu{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    position: absolute;
+    top:-150px;
+}
+#content-menu li{
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.content-img{
+    border: solid 1px rgba(0, 0, 0, 0);
+    border-radius: 50%;
+    padding: 32%;
+    box-sizing: border-box;
+    background: #f9f6ef;
+}
+
+.content-img:nth-child(3){
+    padding: 32% 32% 35% 32%;
+}
+
 
 
 
