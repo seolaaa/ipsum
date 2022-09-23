@@ -214,13 +214,64 @@
 }
 
 
+
+
 #door-img-center{
     width: 100%;
+    height: 850px;
     display: flex;
     align-items: center;
     justify-content: center;
     background: red;
 }
+
+#door-img-num{
+    position: relative;
+    top: -220px;
+    left: 300px;
+}
+
+#door-img-list-wrap{
+    width: 50%;
+}
+
+#door-img-list{
+    display: flex;
+}
+
+#door-img-num-list{
+
+
+}
+#door-img-num-list li a{
+    font: bold 5em 'Noto Sans';
+    color: #666666;
+}
+
+#door-img-num-btn{
+    color: #666666;
+}
+
+.door-left-btn{
+    position: absolute;
+    top: 40px;
+    left: -80px;
+}
+.door-right-btn{
+    position: absolute;
+    top: 40px;
+    left: 140px;
+}
+
+#door-img-text{
+    position: relative;
+    top: 60px;
+    left: 70px;
+}
+
+
+
+
 
 @media screen and (max-width:1200px){
     #main-center,#content-center{
