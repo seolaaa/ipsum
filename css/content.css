@@ -222,7 +222,6 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background: red;
 }
 
 #door-img-num{
@@ -235,9 +234,7 @@
     width: 50%;
 }
 
-#door-img-list{
-    display: flex;
-}
+
 
 #door-img-num-list{
 
@@ -267,6 +264,14 @@
     position: relative;
     top: 60px;
     left: 70px;
+}
+
+#door-img-list{
+    display: flex;
+}
+
+#door-img-list li{
+    margin-left: 20px;
 }
 
 
