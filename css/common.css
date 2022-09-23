@@ -58,3 +58,16 @@ header{
 }
 
 /*헤더끝*/
+
+/*하단*/
+#footer-wrap{
+    width: 100%;
+    background: #c7bfb8;
+    height: 266px;
+}
+
+footer{
+    width: 1200px;
+    height: 100%;
+    margin: 0px auto;
+}
