@@ -217,7 +217,7 @@
 
 
 #door-img-center{
-    width: auto;
+    width: 100%;
     height: 850px;
     display: flex;
     align-items: center;
@@ -230,11 +230,6 @@
     left: 300px;
 }
 
-
-
-/* #door-img-num-list{
-width: 20%;
-} */
 #door-img-num-list li a{
     font: bold 5em 'Noto Sans';
     color: #666666;
@@ -257,16 +252,14 @@ width: 20%;
 
 #door-img-text{
     position: relative;
-    /* top: 60px;
-    left: 70px; */
     top: 60px;
     left: 70px;
 }
 
 
 #door-img-list-wrap{
-
     overflow: hidden;
+    width: 80%;
 }
 
 #door-img-list{
@@ -279,9 +272,7 @@ width: 20%;
    
 }
 
-#door-img-list li img{
-   width: 100%;
-}
+
 
 
 
