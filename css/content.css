@@ -226,7 +226,7 @@
 
 #door-img-num{
     position: relative;
-    top: -220px;
+    top: -270px;
     left: 300px;
 }
 
@@ -258,20 +258,23 @@
 
 
 #door-img-list-wrap{
-    overflow: hidden;
-    width: 80%;
+    width: 50%;
 }
 
 #door-img-list{
+    width: 600%;
     display: flex;
 
 }
 
 #door-img-list li{
-    margin-left: 20px;
-   
+    margin-left: 20px; 
 }
 
+#door-img-list li img{
+    width: 100%;
+   
+}
 
 
 
@@ -298,10 +301,10 @@
         top: 65%; 
     }
     .bold-text{
-        font-size:24px
+        font-size:26px
     }
     .normal-text{
-        font-size:12px
+        font-size:14px
     }
 
 }
