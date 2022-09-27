@@ -5,6 +5,7 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    background: #d2cdc9;
 }
 
 #ready{
@@ -13,6 +14,20 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction:column;
+}
+
+#ready-text{
+  text-align: center;
+}
+
+#ready-title{
+  font: bold 4.25em 'Noto Sans';
+}
+
+.ready-title-in-text{
+  font: normal 1.25em 'Noto Sans';
+  margin-top: 20px;
 }
 
 #ready-loding{
@@ -28,6 +43,7 @@
     position: relative;
     width: 80px;
     height: 80px;
+    scale: 1.5;
   }
   .lds-spinner div {
     transform-origin: 40px 40px;
@@ -42,7 +58,8 @@
     width: 6px;
     height: 18px;
     border-radius: 20%;
-    background:#610000
+    background:#666666;
+   
   }
   .lds-spinner div:nth-child(1) {
     transform: rotate(0deg);
