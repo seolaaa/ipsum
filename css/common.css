@@ -70,7 +70,6 @@ footer{
     width: 1200px;
     height: 100%;
     margin: 0px auto;
-<<<<<<< HEAD
     font: normal 0.85em 'Noto Sans';
     color: white;
 }
@@ -111,6 +110,8 @@ footer{
         width: 100%;
         margin-left: 10px;
     }
-=======
->>>>>>> parent of d9296c8 (9/25 하단완성)
+
+    #title{
+        padding-left: 10px;
+    }
 }
