@@ -319,5 +319,9 @@
      #maintitle{
         font-size: 80px;
     }
+
+    #door-img-text{
+        top: 20px;
+    }
    
 }
