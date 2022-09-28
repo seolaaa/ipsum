@@ -40,51 +40,54 @@
     top: 0px;
 }
 
-/* #main-center img{
-    width: 58%;
-    position: absolute;
-    top: 150px;
-} */
 
 .main-img{
     width: 58%;
     position: absolute;
-    top: 150px;
+    top: 350px; /*150*/
+    opacity: 0;
 }
 
 #maintitle{
     font: bold 7em 'Noto Sans';
     color: white;
     position: absolute;
-    top: 140px;
+    top: 240px; /*140*/
+    opacity: 0;
 }
 
 .main-text{
     font: normal 0.75em 'Noto Sans';
     color: white;
     position: absolute;
-    top: 300px;
+    top: 450px; /*300*/
+    opacity: 0;
 }
 
 .right-text{
     text-align: end;
     position: absolute;
-    left: 51%;
+    right: 100px; /*255*/
     top: 750px;
+    opacity: 0;
 }
 
 #main-big-text{
     font: bold 2.2em 'Noto Sa2ns';
     color: white;
     position: absolute;
-    left: 21%;
+    left: 95px; /*250*/
     top: 750px;
+    opacity: 0;
 }
+
+
 .main-btn{
     width: 17%;
     position: absolute;
     top: 450px;
-    left: 70%;
+    left: 90%; /*70%*/
+    opacity: 0;
 }
 
 /*메인이미지 끝*/
@@ -293,6 +296,18 @@
     }
 }
 
+@media screen and (max-width:1100px){
+
+    .right-text{
+        left: 500px;
+        text-align: center;
+    }
+
+    #main-big-text{
+        right: 500px;
+        text-align: center;
+    }
+}
 
 @media screen and (max-width:1000px){
     .main-btn{
@@ -318,16 +333,40 @@
 
 }
 
+@media screen and (max-width:910px){
+
+    #main-big-text{
+        top: 60%;
+        right:430px;
+        
+    }
+
+    .right-text{
+        top: 60%;
+        left: 430px;
+    }
+
+}
+
 @media screen and (max-width:800px){
-    #main-big-text,.right-text{
+    #main-big-text{
         top: 55%;
+
+    }
+
+    .right-text{
+        top: 55%;
+        left: 410px;
     }
      #maintitle{
         font-size: 80px;
     }
 
+
     #door-img-text{
-        top: 20px;
+        top: 200px;
     }
+
+    
    
 }
