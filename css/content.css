@@ -163,6 +163,12 @@
     border: solid 2px #666666;
     border-radius: 70px;
     color: #666666;
+    transition: all 0.3s ease-out;
+}
+
+.content-menu-btn:hover{
+    background: #666666;
+    color: white;
 }
 
 #content-text-wrap{
