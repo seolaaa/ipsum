@@ -86,7 +86,7 @@
     width: 17%;
     position: absolute;
     top: 450px;
-    left: 90%; /*70%*/
+    right:0px; /*150*/
     opacity: 0;
 }
 
@@ -351,7 +351,6 @@
 @media screen and (max-width:800px){
     #main-big-text{
         top: 55%;
-
     }
 
     .right-text{
@@ -364,9 +363,11 @@
 
 
     #door-img-text{
-        top: 200px;
+        top: 20px;
     }
 
-    
+    .main-btn{
+        left: 520px;
+    }
    
 }
