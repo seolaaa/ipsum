@@ -41,7 +41,7 @@ document.addEventListener('DOMContentLoaded',()=>{
 
         let scrollHeight = window.pageYOffset;
 
-        if(scrollHeight>1000){
+        if(scrollHeight>1200){
             gsap.to(textWrap,{display:'block',opacity:1,duration:0.5,ease:'power1.out'})
         }
         
