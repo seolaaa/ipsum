@@ -18,7 +18,7 @@ document.addEventListener('DOMContentLoaded',()=>{
         gsap.to(text,{opacity:1,top:300,duration:0.6,ease:'power1.out',delay:0.8})
         gsap.to(leftText,{opacity:1,left:250,duration:0.6,ease:'power1.out',delay:0.8})
         gsap.to(rightText,{opacity:1,right:255,duration:0.6,ease:'power1.out',delay:0.8})
-        gsap.to(mainBtn,{opacity:1,right:150,duration:0.6,ease:'power1.out',delay:1})
+        gsap.to(mainBtn,{opacity:1,right:150,duration:0.6,ease:'power1.out',delay:0.9})
 
     }
 })
