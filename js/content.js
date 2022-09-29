@@ -22,7 +22,7 @@ document.addEventListener('DOMContentLoaded',()=>{
                 gsap.to(proContentLi[i],{top:0,opacity:1,duration:0.4,ease:'power1.out',delay:i*0.2})
             }
         }
-        if(scrollHeight>1500){
+        if(scrollHeight>1700){
             for(let i=0; i<proContentLi.length; i++){
                 gsap.to(proContentLi[i],{top:150,opacity:0,duration:0.4,ease:'power1.out',delay:i*0.2})
             }
