@@ -7,8 +7,6 @@ document.addEventListener('DOMContentLoaded',()=>{
     const rightText = document.querySelector('.right-text')
     const mainBtn = document.querySelector('.main-btn')
 
-    const mainWrap = document.querySelector('#main-wrap')
-
     init();
     initEvent();
 
