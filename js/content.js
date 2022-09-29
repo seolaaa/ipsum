@@ -5,7 +5,6 @@ document.addEventListener('DOMContentLoaded',()=>{
 
 
 
-
     initEvent();
 
     function initEvent(){
@@ -20,7 +19,7 @@ document.addEventListener('DOMContentLoaded',()=>{
 
         let scrollHeight = window.pageYOffset;
 
-        if(scrollHeight>400){
+        if(scrollHeight<500){
             for(let i=0; i<proContentLi.length; i++){
                 gsap.to(proContentLi[i],{top:0,opacity:1,duration:0.4,ease:'power1.out',delay:i*0.2})
             }
@@ -41,7 +40,7 @@ document.addEventListener('DOMContentLoaded',()=>{
 
         let scrollHeight = window.pageYOffset;
 
-        if(scrollHeight>1200){
+        if(scrollHeight<1700){
             gsap.to(textWrap,{display:'block',opacity:1,duration:0.5,ease:'power1.out'})
         }
         
