@@ -2,10 +2,27 @@ document.addEventListener('DOMContentLoaded',()=>{
 
     const proContentLi = document.querySelectorAll('#content-menu>li')
     const textWrap = document.querySelector('#content-text-wrap')
+    const text = document.querySelector(".logo-text");
+
+   
 
 
 
+
+
+    init();
     initEvent();
+
+    function init(){
+
+        text.innerHTML = text.innerText
+        .split("")
+        .map(
+            (char, i) => `<span style="transform:rotate(${i * 10.3}deg)">${char}</span>`
+        )
+        .join("");
+    
+    }
 
     function initEvent(){
 

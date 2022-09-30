@@ -211,6 +211,32 @@
     color: white;
 }
 
+.circle {
+	position: absolute;
+    top: 1750px;
+    right: 190px;
+	width: 200px;
+	height: 250px;
+	border-radius: 125px;
+
+}
+
+.logo-text{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	color: #666666;
+	font-size: 17px;
+	animation: textRotation 8s linear infinite;
+}
+
+.logo-text span{
+	position: absolute;
+	left: 50%;
+    font: bold 1.25em 'Noto Sans';
+	transform-origin: 0 125px;
+}
+
 #content-text-wrap{
     width: 100%;
     margin-top: 40%;
@@ -488,5 +514,11 @@
       transform: scale(1);
     }
   }
+
+  @keyframes textRotation {
+	to {
+		transform: rotate(360deg);
+	}
+}
 
 
