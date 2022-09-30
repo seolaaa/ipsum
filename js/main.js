@@ -32,7 +32,7 @@ document.addEventListener('DOMContentLoaded',()=>{
         
         let scrollHeight = window.pageYOffset;
 
-        if(scrollHeight>900){
+        if(scrollHeight>=900){
             gsap.to(mainImg,{opacity:0,top:350,duration:0.6,ease:'power1.out',delay:0.2})
             gsap.to(title,{opacity:0,top:240,duration:0.6,ease:'power1.out',delay:0.5})
             gsap.to(text,{opacity:0,top:450,duration:0.6,ease:'power1.out',delay:0.8})
