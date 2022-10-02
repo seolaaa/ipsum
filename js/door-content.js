@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded',()=>{
     const doorWrap = document.querySelector('#door-img-list-wrap')
     const doorImg = document.querySelector('#door-img-list')
 
-    let startX = doorWrap.offsetLeft-(doorImg.offsetWidth/2);
+    let startX = doorWrap.offsetLeft-(doorImg.offsetWidth/7);
     let CurrentX = startX;
     let stepX = 2;
     let endX = doorWrap.offsetLeft;
