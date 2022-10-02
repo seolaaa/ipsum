@@ -30,14 +30,12 @@ document.addEventListener('DOMContentLoaded',()=>{
 
     function initEvent(){
 
-        window.addEventListener('scroll',scrollPro)
-        // window.addEventListener('scroll',scrollText)
-        // window.addEventListener('scroll',scrollHalf)
+        window.addEventListener('scroll',scrollContent)
 
     }
 
 
-    function scrollPro(){
+    function scrollContent(){
 
 
         let scrollHeight = window.pageYOffset;
@@ -69,7 +67,7 @@ document.addEventListener('DOMContentLoaded',()=>{
 
 
 
-        if(scrollHeight>=1600){
+        if(scrollHeight>=1300){
             gsap.to(halfImg,{opacity:1,duration:0.5,ease:'power1.out',delay:0.2})
             gsap.to(halfBold,{opacity:1,duration:0.5,ease:'power1.out',delay:0.3})
             gsap.to(halfNormal,{opacity:1,duration:0.5,ease:'power1.out',delay:0.5})
