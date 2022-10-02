@@ -378,7 +378,7 @@
 }
 
 #door-left-wrap{
-    width: 50%;
+    width: 70%;
     height: 100%;
     display: flex;
     align-items: center;
@@ -421,7 +421,7 @@
 
 
 #door-img-list-wrap{
-    width: 1880px;
+    width: 4500px;
     position: relative;
     left: -100%;
     top: 0px;

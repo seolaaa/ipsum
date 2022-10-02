@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded',()=>{
 
     let startX = doorWrap.offsetLeft-(doorWrap.offsetWidth/1);
     let CurrentX = startX;
-    let stepX = 2;
+    let stepX = 8;
     let endX = doorWrap.offsetLeft;
 
     
@@ -26,7 +26,7 @@ document.addEventListener('DOMContentLoaded',()=>{
         CurrentX+=stepX
 
         if(CurrentX >= endX){
-            CurrentX=startX+2
+            CurrentX=startX+4
         }
 
         doorWrap.style.left=CurrentX+"px"

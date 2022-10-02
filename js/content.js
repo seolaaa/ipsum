@@ -36,7 +36,7 @@ document.addEventListener('DOMContentLoaded',()=>{
 
         let scrollHeight = window.pageYOffset;
 
-        if(scrollHeight>=400){
+        if(scrollHeight>=380){
             for(let i=0; i<proContentLi.length; i++){
                 gsap.to(proContentLi[i],{top:0,opacity:1,duration:0.4,ease:'power1.out',delay:i*0.2})
             }
