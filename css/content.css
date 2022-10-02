@@ -377,10 +377,20 @@
     justify-content: center;
 }
 
-#door-img-num{
+#door-left-wrap{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     position: relative;
-    top: -270px;
-    left: 300px;
+    left: 100px;
+    top: 0px;
+}
+
+#door-img-num{
+    position: absolute;
+    top: 150px;
 }
 
 #door-img-num-list li a{
@@ -413,20 +423,20 @@
 #door-img-list-wrap{
     width: 50%;
     position: relative;
-    left: 0px;
+    left: -120px;
     top: 0px;
     z-index: -5;
-
 }
 
 #door-img-list{
-    width: 600%;
+    width: 6000px;
     display: flex;
+    
     
 }
 
 #door-img-list li{
-    margin-left: 20px; 
+    margin-left: 30px; 
 }
 
 #door-img-list li img{
