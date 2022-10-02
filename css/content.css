@@ -412,15 +412,16 @@
 
 #door-img-list-wrap{
     width: 50%;
+    position: relative;
+    left: 0px;
+    top: 0px;
+
 }
 
 #door-img-list{
     width: 600%;
     display: flex;
-    position: relative;
-    left: 500px;
-    top: 0px;
-
+    
 }
 
 #door-img-list li{

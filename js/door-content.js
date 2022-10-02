@@ -1,9 +1,9 @@
 document.addEventListener('DOMContentLoaded',()=>{
 
-    const doorWrap = document.querySelector('#door-img-list')
-    const doorImgLi = document.querySelectorAll('#door-img-list>li')
+    const doorWrap = document.querySelector('#door-img-list-wrap')
+    const doorImg = document.querySelector('#door-img-list')
 
-    let startX = doorWrap.offsetLeft-(doorWrap.offsetWidth/2);
+    let startX = doorWrap.offsetLeft-(doorImg.offsetWidth/2);
     let CurrentX = startX;
     let stepX = 2;
     let endX = doorWrap.offsetLeft;
@@ -24,7 +24,7 @@ document.addEventListener('DOMContentLoaded',()=>{
         CurrentX+=stepX
 
         if(CurrentX >= endX){
-            CurrentX=startX+2
+            CurrentX=startX+5
         }
 
         doorWrap.style.left=CurrentX+"px"
