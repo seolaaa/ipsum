@@ -421,22 +421,22 @@
 
 
 #door-img-list-wrap{
-    width: 50%;
+    width: 1880px;
     position: relative;
-    left: -120px;
+    left: -100%;
     top: 0px;
     z-index: -5;
 }
 
 #door-img-list{
-    width: 6000px;
+    width: 600%;
     display: flex;
     
     
 }
 
 #door-img-list li{
-    margin-left: 30px; 
+    margin-left: 50px; 
 }
 
 #door-img-list li img{
