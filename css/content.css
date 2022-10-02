@@ -417,6 +417,9 @@
 #door-img-list{
     width: 600%;
     display: flex;
+    position: relative;
+    left: 500px;
+    top: 0px;
 
 }
 

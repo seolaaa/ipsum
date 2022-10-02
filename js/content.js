@@ -1,4 +1,5 @@
 document.addEventListener('DOMContentLoaded',()=>{
+    
 
     const proContentLi = document.querySelectorAll('#content-menu>li')
     const textWrap = document.querySelector('#content-text-wrap')
@@ -7,11 +8,6 @@ document.addEventListener('DOMContentLoaded',()=>{
     const halfBold = document.querySelector('.half-bold-text')
     const halfNormal = document.querySelector('.half-normal-text')
     const halfBtn = document.querySelector('.img-text-btn')
-
-   
-
-
-
 
 
     init();
@@ -39,8 +35,6 @@ document.addEventListener('DOMContentLoaded',()=>{
 
 
         let scrollHeight = window.pageYOffset;
-
-        console.log(scrollHeight);
 
         if(scrollHeight>=400){
             for(let i=0; i<proContentLi.length; i++){
