@@ -18,7 +18,7 @@ document.addEventListener('DOMContentLoaded',()=>{
 
     function Moving(){
 
-        setInterval(doorMoving,20)
+        setInterval(doorMoving,18)
     }
 
     function doorMoving(){
