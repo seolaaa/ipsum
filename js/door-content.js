@@ -1,39 +1,3 @@
-// document.addEventListener('DOMContentLoaded',()=>{
-
-//     const doorWrap = document.querySelector('#door-img-list-wrap')
-//     const doorImg = document.querySelector('#door-img-list')
-
-//     let startX = doorWrap.offsetLeft-(doorWrap.offsetWidth/1);
-//     let CurrentX = startX;
-//     let stepX = 8;
-//     let endX = doorWrap.offsetLeft;
-
-    
-
-
-
-//     Moving();
-
-    
-
-//     function Moving(){
-
-//         setInterval(doorMoving,18)
-//     }
-
-//     function doorMoving(){
-        
-//         CurrentX+=stepX
-
-//         if(CurrentX >= endX){
-//             CurrentX=startX+4
-//         }
-
-//         doorWrap.style.left=CurrentX+"px"
-//     }
-    
-// })
-
 
 document.addEventListener('DOMContentLoaded',()=>{
     slideEffect()
@@ -71,7 +35,7 @@ document.addEventListener('DOMContentLoaded',()=>{
 
 
     function init(){
-        gsap.set(doorLi,{left:doorWidth,opacity:0})
+        gsap.set(doorLi,{left:doorWidth,height:'1000px',opacity:0})
         gsap.set(doorLi[0],{left:0,opacity:1})
         gsap.set(numLi,{left:numWidth,opacity:0})
         gsap.set(numLi[0],{left:0,opacity:1})

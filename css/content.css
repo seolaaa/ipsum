@@ -441,10 +441,6 @@
 
 }
 
-#door-img-list{
-    height: 100%;
-}
-
 #door-img-list li{
     position: absolute;
     left: 0px;
@@ -452,22 +448,10 @@
     
 }
 
-/* #door-img-list li:nth-child(1){
-    opacity: 1;
-   
-}
-#door-img-list li:nth-child(2){
-    opacity: 1;
-   
-}
-#door-img-list li:nth-child(3){
-    opacity: 1;
-   
-} */
 
 #door-img-list li img{
     width: 100%;
-    display: block;
+    height: 630px;
    
 }
 
@@ -477,7 +461,7 @@
 
 
 @media screen and (max-width:1200px){
-    #main-center,#content-center{
+    #main-center,#content-center,#door-img-center{
         width: 100%;
     }
 
@@ -553,7 +537,7 @@
 
 
     #door-img-text{
-        top: 20px;
+        
     }
 
     .main-btn{
