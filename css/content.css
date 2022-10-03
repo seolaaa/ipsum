@@ -395,6 +395,16 @@
     left: 200px;
 }
 
+#door-img-num-list{
+    
+}
+
+#door-img-num-list li{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+
 #door-img-num-list li a{
     font: bold 5em 'Noto Sans';
     color: #666666;
@@ -432,7 +442,7 @@
 }
 
 #door-img-list{
-    
+    height: 100%;
 }
 
 #door-img-list li{
