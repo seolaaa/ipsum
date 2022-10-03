@@ -34,9 +34,10 @@
     
 // })
 
-window.addEventListener('load',()=>{
+
+document.addEventListener('DOMContentLoaded',()=>{
     slideEffect()
-  })
+})  
 
   function slideEffect(){
 
@@ -59,6 +60,8 @@ window.addEventListener('load',()=>{
 
 
     init();
+    initEvent();
+    autoplay();
 
 
 
@@ -66,5 +69,39 @@ window.addEventListener('load',()=>{
     function init(){
         gsap.set(doorLi,{left:doorWidth,opacity:0.2})
         gsap.set(doorLi[0],{left:0,opacity:1})
+    }
+
+
+    function initEvent(){
+
+        rightBtn.addEventListener('click',slideNext)
+
+    }
+
+    function slideNext(){
+
+        if(isSlide==false){
+
+            isSlide=true;
+            nextIndex=currentIndex+1;
+          }
+         
+          if(nextIndex>=doorLength){
+            nextIndex=0;
+          }
+
+          gsap.to(doorLi[currentIndex],{left:-doorWidth,opacity:0, duration:0.8, ease:'power1.out'})
+          gsap.set(doorLi[nextIndex],{left:doorWidth})
+          gsap.to(doorLi[nextIndex],{left:0,opacity:1,duration:0.8,ease:'power1.out',onComplete:()=>{
+            isSlide=false;
+          }})
+  
+          currentIndex=nextIndex;
+  
+    }
+
+
+    function autoplay(){
+        timer=setInterval(slideNext,1500)
     }
   }
