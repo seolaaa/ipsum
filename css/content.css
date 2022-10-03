@@ -481,8 +481,8 @@
     }
 
     #content-menu{
-        scale: 0.8;
-        right: 200px;
+        scale: 0.9;
+        right: 230px;
     }
 }
 
@@ -494,6 +494,23 @@
         font-size: 24px;
         top: 65%;    
     }
+
+    #content-menu{
+        right: 120px;
+    }
+
+    #content-menu li:nth-child(2){
+        right: 350px;
+    }
+
+    #content-menu li:nth-child(3){
+        right: 100px;
+    }
+
+    #content-menu li:nth-child(4){
+        right: -150px;
+    }
+
     .right-text{
         font-size: 10px;
         top: 65%; 
@@ -524,11 +541,9 @@
     }
 
     #content-menu{
-        scale: 0.8;
-        right: 150px;
+        right: 100px;
         top: -80px;
     }
-
 }
 
 @media screen and (max-width:800px){
@@ -545,9 +560,9 @@
     }
 
     #content-menu{
-        scale: 0.7;
-        right: 90px;
-        top: -50px;
+        scale: 0.8;
+        right: 40px;
+        top: -80px;
     }
 
     .main-btn{

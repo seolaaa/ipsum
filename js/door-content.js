@@ -35,7 +35,7 @@ document.addEventListener('DOMContentLoaded',()=>{
 
 
     function init(){
-        gsap.set(doorLi,{left:doorWidth,height:'1000px',opacity:0})
+        gsap.set(doorLi,{left:doorWidth,opacity:0})
         gsap.set(doorLi[0],{left:0,opacity:1})
         gsap.set(numLi,{left:numWidth,opacity:0})
         gsap.set(numLi[0],{left:0,opacity:1})
