@@ -370,27 +370,29 @@
 
 
 #door-img-center{
-    width: 100%;
+    width: 1200px;
     height: 900px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    margin: 0px auto;
+    position: relative;
+    left: 0px;
+    top: 0px;
 }
 
 #door-left-wrap{
-    width: 70%;
+    width: 50%;
     height: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
-    position: relative;
+    position: absolute;
     left: 100px;
     top: 0px;
 }
 
 #door-img-num{
     position: absolute;
-    top: 150px;
+    top: 180px;
+    left: 200px;
 }
 
 #door-img-num-list li a{
@@ -414,34 +416,48 @@
 }
 
 #door-img-text{
-    position: relative;
-    top: 60px;
-    left: 70px;
+    position: absolute;
+    top: 350px;
 }
 
 
 #door-img-list-wrap{
-    width: 4500px;
-    position: relative;
-    left: -100%;
-    top: 0px;
+    width: 100%;
     z-index: -5;
+    position: absolute;
+    top: 150px;
+    left: 600px;
+
 
 }
 
 #door-img-list{
-    width: 600%;
-    display: flex;
-    
     
 }
 
 #door-img-list li{
-    margin-left: 50px; 
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    
 }
+
+/* #door-img-list li:nth-child(1){
+    opacity: 1;
+   
+}
+#door-img-list li:nth-child(2){
+    opacity: 1;
+   
+}
+#door-img-list li:nth-child(3){
+    opacity: 1;
+   
+} */
 
 #door-img-list li img{
     width: 100%;
+    display: block;
    
 }
 
