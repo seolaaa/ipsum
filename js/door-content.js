@@ -74,11 +74,12 @@ document.addEventListener('DOMContentLoaded',()=>{
 
     function initEvent(){
 
-        rightBtn.addEventListener('click',slideNext)
+        rightBtn.addEventListener('click',slideRight)
+        leftBtn.addEventListener('click',slideLeft)
 
     }
 
-    function slideNext(){
+    function slideRight(){
 
         if(isSlide==false){
 
@@ -99,9 +100,29 @@ document.addEventListener('DOMContentLoaded',()=>{
           currentIndex=nextIndex;
   
     }
+    function slideLeft(){
+
+        if(isSlide==false){
+            isSlide=true;
+            nextIndex=currentIndex-1;
+          }
+         
+          if(nextIndex<0){
+            nextIndex=doorLength-1;
+          }
+
+          gsap.to(doorLi[currentIndex],{left:doorWidth,opacity:0, duration:0.8, ease:'power1.out'})
+          gsap.set(doorLi[nextIndex],{left:-doorWidth})
+          gsap.to(doorLi[nextIndex],{left:0,opacity:1,duration:0.8,ease:'power1.out',onComplete:()=>{
+            isSlide=false;
+          }})
+  
+          currentIndex=nextIndex;
+  
+    }
 
 
     function autoplay(){
-        timer=setInterval(slideNext,1500)
+        timer=setInterval(slideRight,3000)
     }
   }
