@@ -212,7 +212,7 @@
 .circle {
 	position: absolute;
     top: -125px;
-    right: 190px;
+    right: 100px;
 	width: 200px;
 	height: 250px;
 	border-radius: 125px;
@@ -466,6 +466,11 @@
     .img-half{
         width: 50%;
     }
+
+    .circle{
+        right: 0px;
+        scale: 0.9;
+    }
 }
 
 @media screen and (max-width:1100px){
@@ -525,6 +530,12 @@
         scale: 0.9;
     }
 
+    .circle{
+        left: 0px;
+    }
+
+   
+
 }
 
 @media screen and (max-width:910px){
@@ -543,6 +554,10 @@
     #content-menu{
         right: 100px;
         top: -80px;
+    }
+
+    .circle{
+        scale: 0.8;
     }
 }
 
@@ -567,6 +582,10 @@
 
     .main-btn{
         left: 520px;
+    }
+    .circle{
+        scale: 0.7;
+ 
     }
    
 }
