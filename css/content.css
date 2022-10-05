@@ -393,10 +393,6 @@
     left: 200px;
 }
 
-#door-img-num-list{
-    
-}
-
 #door-img-num-list li{
     position: absolute;
     left: 0px;
@@ -489,6 +485,13 @@
         scale: 0.9;
         right: 230px;
     }
+
+
+    #door-img-list-wrap{
+        scale: 0.8;
+        top: 250px;
+        left: 400px;
+    }
 }
 
 @media screen and (max-width:1000px){
@@ -558,6 +561,11 @@
 
     .circle{
         scale: 0.8;
+    }
+
+    #door-img-list-wrap{
+        scale: 0.6;
+        left: 250px;
     }
 }
 
