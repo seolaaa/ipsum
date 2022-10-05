@@ -136,6 +136,11 @@
     transition: all 0.3s ease-out;
 }
 
+#content-menu li:hover{
+    scale: 1.1;
+}
+
+
 #content-menu li:first-child{
     position: absolute;
     right:600px; 
