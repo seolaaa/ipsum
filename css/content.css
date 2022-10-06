@@ -221,6 +221,7 @@
 	width: 200px;
 	height: 250px;
 	border-radius: 125px;
+    display: block;
 
 }
 
@@ -455,9 +456,11 @@
 }
 
 
-
-
-
+@media screen and (max-width:1700px){
+    .circle{
+        display: none;
+    }
+}
 
 @media screen and (max-width:1200px){
     #main-center,#content-center,#door-img-center{
@@ -468,10 +471,6 @@
         width: 50%;
     }
 
-    .circle{
-        right: 0px;
-        scale: 0.9;
-    }
 }
 
 @media screen and (max-width:1100px){
@@ -538,9 +537,7 @@
         scale: 0.9;
     }
 
-    .circle{
-        left: 0px;
-    }
+    
 
    
 
@@ -564,9 +561,6 @@
         top: -80px;
     }
 
-    .circle{
-        scale: 0.8;
-    }
 
     #door-img-list-wrap{
         scale: 0.6;
@@ -596,10 +590,7 @@
     .main-btn{
         left: 520px;
     }
-    .circle{
-        scale: 0.7;
- 
-    }
+    
    
 }
 
