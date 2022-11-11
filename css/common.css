@@ -69,7 +69,6 @@ header{
     color: #666666;
     
 }
-
 /*헤더끝*/
 
 /*하단*/
@@ -114,6 +113,7 @@ footer{
 #footer-down-text li:first-child{
     margin-left: 0px;
 }
+/*하단끝*/
 
 
 
