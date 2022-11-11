@@ -1,2 +1,3 @@
 # ipsum
-개인작 포트폴리오2
+
+http://seolaaa.github.io/ipsum
